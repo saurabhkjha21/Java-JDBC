@@ -14,7 +14,7 @@ public class Main {
             Connection connection =
                     DriverManager.getConnection(url, username, password);
 
-            System.out.println("✅ Connected to MySQL database");
+            System.out.println("Connected to MySQL database");
             System.out.println(connection);
             connection.close();
 
