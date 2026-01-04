@@ -19,7 +19,7 @@ public class Main {
             connection.close();
 
         } catch (SQLException e) {
-            System.out.println("❌ Connection failed");
+            System.out.println("Connection failed");
             e.printStackTrace();
         }
     }
